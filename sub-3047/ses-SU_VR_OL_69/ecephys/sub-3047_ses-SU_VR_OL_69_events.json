@@ -1,0 +1,46 @@
+{
+    "onset": {
+        "Description": "Onset of the event, measured from the beginning of the acquisition.",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Duration of the event (measured from onset).",
+        "Units": "s"
+    },
+    "trial_type": {
+        "Description": "type of trial (i.e. speed, teleport, etc.)"
+    },
+    "vstim_on": {
+        "Description": "vstim_on"
+    },
+    "scene_move": {
+        "Description": "scene_move"
+    },
+    "rew": {
+        "Description": "rew"
+    },
+    "vstim_off": {
+        "Description": "vstim_off"
+    },
+    "teleport": {
+        "Description": "teleport"
+    },
+    "scene_pause": {
+        "Description": "scene_pause"
+    },
+    "scene_resume": {
+        "Description": "scene_resume"
+    },
+    "nwb_table": {
+        "Description": "The name of the NWB table from which this event was extracted.",
+        "Levels": {
+            "trials": "The 'trials' table in the NWB file."
+        },
+        "HED": {
+            "trials": "Experimental-trial"
+        }
+    },
+    "trials": {
+        "Description": "experimental trials"
+    }
+}
