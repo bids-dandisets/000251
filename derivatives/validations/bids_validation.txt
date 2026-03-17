@@ -6,24 +6,582 @@ Valid keys in each object include `"URL"`, `"DOI"` (see
 `"Version"` with
 [string](https://www.w3schools.com/js/js_json_datatypes.asp)
 values.
-
+ - rules.dataset_metadata.dataset_description
 
 	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
 
 	[ERROR] TSV_VALUE_INCORRECT_TYPE A value in a column did not match the acceptable type for that column headers specified format.
 		session_id
-		/sub-241/sub-241_sessions.tsv - 'ses-Ca_VS_VR_BTW_TRACKS_FWD_TP_1'
-		/sub-132/sub-132_sessions.tsv - 'ses-Ca_VS_MB_7'
-
-		51 more files with the same issue
+		/sub-241/sub-241_sessions.tsv - 'ses-Ca_VS_VR_BTW_TRACKS_FWD_TP_1' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-132/sub-132_sessions.tsv - 'ses-Ca_VS_MB_7' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-3048/sub-3048_sessions.tsv - 'ses-SU_VR_ALL_OL_55' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-134/sub-134_sessions.tsv - 'ses-Ca_VS_VR_11' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-215/sub-215_sessions.tsv - 'ses-DAsensor_VS_VR_7' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-211/sub-211_sessions.tsv - 'ses-DAsensor_VS_VR_4' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-123/sub-123_sessions.tsv - 'ses-Ca_VS_MB_3' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-243/sub-243_sessions.tsv - 'ses-Ca_VS_VR_BTW_TRACKS_FWD_TP_2' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-3045/sub-3045_sessions.tsv - 'ses-SU_VR_ALL_OL_44' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-283/sub-283_sessions.tsv - 'ses-Ca_VS_VR_CLOOP_PATTERN_5' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-277/sub-277_sessions.tsv - 'ses-Ca_VS_VR_DYNSPD_5' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-108/sub-108_sessions.tsv - 'ses-Ca_VS_VR_2' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-276/sub-276_sessions.tsv - 'ses-Ca_VS_VR_BTW_TRACKS_REWSIZE_4' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-128/sub-128_sessions.tsv - 'ses-Ca_VS_MB_6' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-245/sub-245_sessions.tsv - 'ses-Ca_VS_VR_BTW_TRACKS_FWD_TP_4' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-217/sub-217_sessions.tsv - 'ses-DAsensor_VS_VR_8' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-3044/sub-3044_sessions.tsv - 'ses-SU_VR_ALL_OL_17' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-3015/sub-3015_sessions.tsv - 'ses-SU_VR_ALL_OL_10' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-146/sub-146_sessions.tsv - 'ses-Ca_VS_MB_12' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-139/sub-139_sessions.tsv - 'ses-Ca_VS_MB_9' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-159/sub-159_sessions.tsv - 'ses-DAsensor_VS_VR_1' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-3054/sub-3054_sessions.tsv - 'ses-SU_VR_ALL_OL_61' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-210/sub-210_sessions.tsv - 'ses-DAsensor_VS_VR_3' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-3021/sub-3021_sessions.tsv - 'ses-SU_VR_ALL_OL_15' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-3053/sub-3053_sessions.tsv - 'ses-SU_VR_ALL_OL_59' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-209/sub-209_sessions.tsv - 'ses-DAsensor_VS_VR_2' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-288/sub-288_sessions.tsv - 'ses-Ca_VS_VR_CLOOP_PATTERN_6' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-140/sub-140_sessions.tsv - 'ses-Ca_VS_MB_10' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-143/sub-143_sessions.tsv - 'ses-Ca_VS_MB_11' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-278/sub-278_sessions.tsv - 'ses-Ca_VS_VR_CLOOP_PATTERN_2' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-133/sub-133_sessions.tsv - 'ses-Ca_VS_MB_8' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-137/sub-137_sessions.tsv - 'ses-Ca_VS_VR_12' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-271/sub-271_sessions.tsv - 'ses-Ca_VS_VR_CLOOP_PATTERN_1' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-218/sub-218_sessions.tsv - 'ses-DAsensor_VS_VR_9' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-249/sub-249_sessions.tsv - 'ses-Ca_VS_VR_BTW_TRACKS_FWD_TP_5' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-110/sub-110_sessions.tsv - 'ses-Ca_VS_MB_2' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-272/sub-272_sessions.tsv - 'ses-Ca_VS_VR_BTW_TRACKS_REWSIZE_2' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-219/sub-219_sessions.tsv - 'ses-DAsensor_VS_VR_10' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-213/sub-213_sessions.tsv - 'ses-DAsensor_VS_VR_5' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-273/sub-273_sessions.tsv - 'ses-Ca_VS_VR_BTW_TRACKS_REWSIZE_3' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-282/sub-282_sessions.tsv - 'ses-Ca_VS_VR_CLOOP_PATTERN_4' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-244/sub-244_sessions.tsv - 'ses-Ca_VS_VR_BTW_TRACKS_FWD_TP_3' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-124/sub-124_sessions.tsv - 'ses-Ca_VS_MB_4' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-112/sub-112_sessions.tsv - 'ses-Ca_VS_VR_4' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-253/sub-253_sessions.tsv - 'ses-Ca_VS_VR_BTW_TRACKS_FWD_TP_6' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-3014/sub-3014_sessions.tsv - 'ses-SU_VR_ALL_OL_1' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-127/sub-127_sessions.tsv - 'ses-Ca_VS_MB_5' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-81/sub-81_sessions.tsv - 'ses-Ca_VS_MB_1' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-269/sub-269_sessions.tsv - 'ses-Ca_VS_VR_BTW_TRACKS_REWSIZE_1' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-3017/sub-3017_sessions.tsv - 'ses-SU_VR_ALL_OL_14' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-280/sub-280_sessions.tsv - 'ses-Ca_VS_VR_CLOOP_PATTERN_3' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-3047/sub-3047_sessions.tsv - 'ses-SU_VR_ALL_OL_54' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-214/sub-214_sessions.tsv - 'ses-DAsensor_VS_VR_6' - rules.tabular_data.modality_agnostic.Sessions
 
 	Please visit https://neurostars.org/search?q=TSV_VALUE_INCORRECT_TYPE for existing conversations about this issue.
 
 	[ERROR] NOT_INCLUDED Files with such naming scheme are not part of BIDS specification. This error is most commonly caused by typos in file names that make them not BIDS compatible. Please consult the specification and make sure your files are named correctly. If this is not a file naming issue (for example when including files not yet covered by the BIDS specification) you should include a ".bidsignore" file in your dataset (see https://github.com/bids-standard/bids-validator#bidsignore for details). Please note that derived (processed) data should be placed in /derivatives folder and source data (such as DICOMS or behavioural logs in proprietary formats) should be placed in the /sourcedata folder.
 		/sub-241/ses-Ca_VS_VR_TP_BTW_TRACKS_1/
 		/sub-241/ses-Ca_VS_VR_BWD_TP_1/
-
-		511 more files with the same issue
+		/sub-241/ses-Ca_VS_VR_BTW_TRACKS_FWD_TP_1/
+		/sub-132/ses-Ca_VS_VR_THREE_TP_9/
+		/sub-132/ses-Ca_VS_MB_TP_PAUSE_5/
+		/sub-132/ses-Ca_VS_VR_SPD_9/
+		/sub-132/ses-Ca_VS_VR_9/
+		/sub-132/ses-Ca_VS_MB_SPD_7/
+		/sub-132/ses-Ca_VS_MB_THREE_TP_6/
+		/sub-132/ses-Ca_VS_MB_7/
+		/sub-132/ses-Ca_VS_VR_TP_PAUSE_5/
+		/sub-3048/ses-SU_VR_ALL_SPD_55/
+		/sub-3048/ses-SU_VR_ALL_OL_56/
+		/sub-3048/ses-SU_VR_ALL_OL_55/
+		/sub-3048/ses-SU_VR_OL_70/
+		/sub-3048/ses-SU_VR_ALL_TP_55/
+		/sub-3048/ses-SU_VR_OL_74/
+		/sub-3048/ses-SU_VR_ALL_SPD_58/
+		/sub-3048/ses-SU_VR_ALL_OL_57/
+		/sub-3048/ses-SU_VR_ALL_TP_58/
+		/sub-3048/ses-SU_VR_ALL_OL_58/
+		/sub-3048/ses-SU_VR_OL_72/
+		/sub-3048/ses-SU_VR_OL_75/
+		/sub-3048/ses-SU_VR_ALL_TP_57/
+		/sub-3048/ses-SU_VR_ALL_TP_56/
+		/sub-3048/ses-SU_VR_OL_73/
+		/sub-3048/ses-SU_VR_ALL_SPD_56/
+		/sub-3048/ses-SU_VR_ALL_SPD_57/
+		/sub-3048/ses-SU_VR_OL_71/
+		/sub-134/ses-Ca_VS_VR_SPD_11/
+		/sub-134/ses-Ca_VS_VR_THREE_TP_11/
+		/sub-134/ses-Ca_VS_VR_11/
+		/sub-134/ses-Ca_VS_VR_TP_PAUSE_7/
+		/sub-215/ses-DAsensor_VS_VR_TP_PAUSE_7/
+		/sub-215/ses-DAsensor_VS_VR_THREE_TP_6/
+		/sub-215/ses-DAsensor_VS_VR_7/
+		/sub-215/ses-DAsensor_VS_VR_SPD_7/
+		/sub-211/ses-DAsensor_VS_VR_THREE_TP_3/
+		/sub-211/ses-DAsensor_VS_VR_SPD_4/
+		/sub-211/ses-DAsensor_VS_VR_4/
+		/sub-211/ses-DAsensor_VS_VR_TP_PAUSE_4/
+		/sub-123/ses-Ca_VS_MB_TP_PAUSE_1/
+		/sub-123/ses-Ca_VS_VR_THREE_TP_5/
+		/sub-123/ses-Ca_VS_VR_SPD_5/
+		/sub-123/ses-Ca_VS_MB_SPD_3/
+		/sub-123/ses-Ca_VS_VR_TP_PAUSE_1/
+		/sub-123/ses-Ca_VS_MB_THREE_TP_2/
+		/sub-123/ses-Ca_VS_MB_3/
+		/sub-123/ses-Ca_VS_VR_5/
+		/sub-243/ses-Ca_VS_VR_BTW_TRACKS_FWD_TP_2/
+		/sub-243/ses-Ca_VS_VR_BWD_TP_2/
+		/sub-243/ses-Ca_VS_VR_TP_BTW_TRACKS_2/
+		/sub-3045/ses-SU_VR_OL_67/
+		/sub-3045/ses-SU_VR_ALL_TP_51/
+		/sub-3045/ses-SU_VR_OL_61/
+		/sub-3045/ses-SU_VR_ALL_OL_50/
+		/sub-3045/ses-SU_VR_ALL_SPD_51/
+		/sub-3045/ses-SU_VR_OL_56/
+		/sub-3045/ses-SU_VR_OL_59/
+		/sub-3045/ses-SU_VR_ALL_OL_48/
+		/sub-3045/ses-SU_VR_OL_58/
+		/sub-3045/ses-SU_VR_ALL_OL_45/
+		/sub-3045/ses-SU_VR_ALL_OL_44/
+		/sub-3045/ses-SU_VR_ALL_SPD_46/
+		/sub-3045/ses-SU_VR_ALL_SPD_49/
+		/sub-3045/ses-SU_VR_OL_63/
+		/sub-3045/ses-SU_VR_OL_65/
+		/sub-3045/ses-SU_VR_ALL_SPD_44/
+		/sub-3045/ses-SU_VR_ALL_SPD_52/
+		/sub-3045/ses-SU_VR_ALL_TP_46/
+		/sub-3045/ses-SU_VR_ALL_SPD_50/
+		/sub-3045/ses-SU_VR_OL_66/
+		/sub-3045/ses-SU_VR_OL_68/
+		/sub-3045/ses-SU_VR_ALL_TP_50/
+		/sub-3045/ses-SU_VR_ALL_SPD_45/
+		/sub-3045/ses-SU_VR_ALL_OL_51/
+		/sub-3045/ses-SU_VR_ALL_OL_46/
+		/sub-3045/ses-SU_VR_OL_60/
+		/sub-3045/ses-SU_VR_ALL_SPD_53/
+		/sub-3045/ses-SU_VR_ALL_TP_53/
+		/sub-3045/ses-SU_VR_ALL_OL_53/
+		/sub-3045/ses-SU_VR_ALL_SPD_47/
+		/sub-3045/ses-SU_VR_ALL_OL_52/
+		/sub-3045/ses-SU_VR_ALL_TP_49/
+		/sub-3045/ses-SU_VR_OL_64/
+		/sub-3045/ses-SU_VR_ALL_OL_49/
+		/sub-3045/ses-SU_VR_ALL_OL_47/
+		/sub-3045/ses-SU_VR_ALL_TP_47/
+		/sub-3045/ses-SU_VR_OL_62/
+		/sub-3045/ses-SU_VR_ALL_TP_44/
+		/sub-3045/ses-SU_VR_ALL_TP_45/
+		/sub-3045/ses-SU_VR_ALL_SPD_48/
+		/sub-3045/ses-SU_VR_ALL_TP_48/
+		/sub-3045/ses-SU_VR_OL_57/
+		/sub-3045/ses-SU_VR_ALL_TP_52/
+		/sub-283/ses-Ca_VS_VR_CLOOP_PATTERN_5/
+		/sub-283/ses-Ca_VS_VR_CLOOP_SOLID_5/
+		/sub-277/ses-Ca_VS_VR_DYNSPD_5/
+		/sub-108/ses-Ca_VS_VR_2/
+		/sub-108/ses-Ca_VS_VR_THREE_TP_2/
+		/sub-108/ses-Ca_VS_VR_SPD_2/
+		/sub-276/ses-Ca_VS_VR_DYNSPD_4/
+		/sub-276/ses-Ca_VS_VR_BTW_TRACKS_REWSIZE_4/
+		/sub-128/ses-Ca_VS_MB_6/
+		/sub-128/ses-Ca_VS_VR_TP_PAUSE_4/
+		/sub-128/ses-Ca_VS_MB_THREE_TP_5/
+		/sub-128/ses-Ca_VS_VR_8/
+		/sub-128/ses-Ca_VS_VR_THREE_TP_8/
+		/sub-128/ses-Ca_VS_MB_SPD_6/
+		/sub-128/ses-Ca_VS_VR_SPD_8/
+		/sub-128/ses-Ca_VS_MB_TP_PAUSE_4/
+		/sub-245/ses-Ca_VS_VR_TP_BTW_TRACKS_4/
+		/sub-245/ses-Ca_VS_VR_BWD_TP_4/
+		/sub-245/ses-Ca_VS_VR_BTW_TRACKS_FWD_TP_4/
+		/sub-245/ses-Ca_VS_VR_DYNSPD_1/
+		/sub-217/ses-DAsensor_VS_VR_SPD_8/
+		/sub-217/ses-DAsensor_VS_VR_8/
+		/sub-217/ses-DAsensor_VS_VR_THREE_TP_7/
+		/sub-217/ses-DAsensor_VS_VR_TP_PAUSE_8/
+		/sub-3044/ses-SU_VR_OL_44/
+		/sub-3044/ses-SU_VR_ALL_OL_41/
+		/sub-3044/ses-SU_VR_ALL_TP_37/
+		/sub-3044/ses-SU_VR_OL_31/
+		/sub-3044/ses-SU_VR_OL_47/
+		/sub-3044/ses-SU_VR_ALL_SPD_18/
+		/sub-3044/ses-SU_VR_ALL_OL_21/
+		/sub-3044/ses-SU_VR_ALL_TP_17/
+		/sub-3044/ses-SU_VR_ALL_TP_21/
+		/sub-3044/ses-SU_VR_OL_39/
+		/sub-3044/ses-SU_VR_ALL_SPD_36/
+		/sub-3044/ses-SU_VR_ALL_TP_22/
+		/sub-3044/ses-SU_VR_OL_28/
+		/sub-3044/ses-SU_VR_ALL_OL_30/
+		/sub-3044/ses-SU_VR_OL_53/
+		/sub-3044/ses-SU_VR_ALL_SPD_21/
+		/sub-3044/ses-SU_VR_ALL_SPD_26/
+		/sub-3044/ses-SU_VR_OL_43/
+		/sub-3044/ses-SU_VR_OL_32/
+		/sub-3044/ses-SU_VR_ALL_TP_29/
+		/sub-3044/ses-SU_VR_OL_50/
+		/sub-3044/ses-SU_VR_ALL_OL_29/
+		/sub-3044/ses-SU_VR_ALL_OL_32/
+		/sub-3044/ses-SU_VR_ALL_OL_40/
+		/sub-3044/ses-SU_VR_OL_45/
+		/sub-3044/ses-SU_VR_ALL_TP_24/
+		/sub-3044/ses-SU_VR_OL_21/
+		/sub-3044/ses-SU_VR_ALL_OL_18/
+		/sub-3044/ses-SU_VR_ALL_TP_20/
+		/sub-3044/ses-SU_VR_ALL_OL_23/
+		/sub-3044/ses-SU_VR_OL_27/
+		/sub-3044/ses-SU_VR_ALL_OL_20/
+		/sub-3044/ses-SU_VR_ALL_SPD_29/
+		/sub-3044/ses-SU_VR_ALL_OL_17/
+		/sub-3044/ses-SU_VR_ALL_SPD_17/
+		/sub-3044/ses-SU_VR_ALL_SPD_30/
+		/sub-3044/ses-SU_VR_ALL_TP_38/
+		/sub-3044/ses-SU_VR_ALL_SPD_22/
+		/sub-3044/ses-SU_VR_OL_22/
+		/sub-3044/ses-SU_VR_ALL_TP_39/
+		/sub-3044/ses-SU_VR_OL_25/
+		/sub-3044/ses-SU_VR_ALL_SPD_38/
+		/sub-3044/ses-SU_VR_ALL_TP_36/
+		/sub-3044/ses-SU_VR_ALL_OL_28/
+		/sub-3044/ses-SU_VR_OL_36/
+		/sub-3044/ses-SU_VR_OL_20/
+		/sub-3044/ses-SU_VR_ALL_OL_25/
+		/sub-3044/ses-SU_VR_ALL_OL_19/
+		/sub-3044/ses-SU_VR_ALL_TP_27/
+		/sub-3044/ses-SU_VR_OL_54/
+		/sub-3044/ses-SU_VR_ALL_TP_19/
+		/sub-3044/ses-SU_VR_ALL_TP_42/
+		/sub-3044/ses-SU_VR_ALL_SPD_40/
+		/sub-3044/ses-SU_VR_OL_51/
+		/sub-3044/ses-SU_VR_ALL_OL_37/
+		/sub-3044/ses-SU_VR_ALL_SPD_19/
+		/sub-3044/ses-SU_VR_ALL_TP_18/
+		/sub-3044/ses-SU_VR_OL_23/
+		/sub-3044/ses-SU_VR_ALL_SPD_32/
+		/sub-3044/ses-SU_VR_ALL_OL_43/
+		/sub-3044/ses-SU_VR_ALL_TP_28/
+		/sub-3044/ses-SU_VR_ALL_SPD_34/
+		/sub-3044/ses-SU_VR_OL_33/
+		/sub-3044/ses-SU_VR_OL_52/
+		/sub-3044/ses-SU_VR_ALL_TP_30/
+		/sub-3044/ses-SU_VR_ALL_SPD_42/
+		/sub-3044/ses-SU_VR_ALL_SPD_31/
+		/sub-3044/ses-SU_VR_ALL_TP_31/
+		/sub-3044/ses-SU_VR_OL_49/
+		/sub-3044/ses-SU_VR_OL_35/
+		/sub-3044/ses-SU_VR_OL_24/
+		/sub-3044/ses-SU_VR_ALL_TP_34/
+		/sub-3044/ses-SU_VR_ALL_TP_35/
+		/sub-3044/ses-SU_VR_ALL_SPD_23/
+		/sub-3044/ses-SU_VR_ALL_TP_26/
+		/sub-3044/ses-SU_VR_ALL_SPD_33/
+		/sub-3044/ses-SU_VR_ALL_OL_39/
+		/sub-3044/ses-SU_VR_ALL_TP_41/
+		/sub-3044/ses-SU_VR_ALL_SPD_25/
+		/sub-3044/ses-SU_VR_OL_40/
+		/sub-3044/ses-SU_VR_OL_48/
+		/sub-3044/ses-SU_VR_ALL_TP_43/
+		/sub-3044/ses-SU_VR_ALL_SPD_28/
+		/sub-3044/ses-SU_VR_ALL_OL_34/
+		/sub-3044/ses-SU_VR_ALL_OL_31/
+		/sub-3044/ses-SU_VR_ALL_OL_27/
+		/sub-3044/ses-SU_VR_ALL_OL_36/
+		/sub-3044/ses-SU_VR_ALL_SPD_24/
+		/sub-3044/ses-SU_VR_ALL_TP_33/
+		/sub-3044/ses-SU_VR_ALL_OL_42/
+		/sub-3044/ses-SU_VR_ALL_TP_25/
+		/sub-3044/ses-SU_VR_ALL_TP_40/
+		/sub-3044/ses-SU_VR_ALL_OL_38/
+		/sub-3044/ses-SU_VR_ALL_SPD_27/
+		/sub-3044/ses-SU_VR_OL_42/
+		/sub-3044/ses-SU_VR_OL_46/
+		/sub-3044/ses-SU_VR_ALL_OL_33/
+		/sub-3044/ses-SU_VR_ALL_OL_26/
+		/sub-3044/ses-SU_VR_ALL_SPD_37/
+		/sub-3044/ses-SU_VR_OL_26/
+		/sub-3044/ses-SU_VR_ALL_OL_35/
+		/sub-3044/ses-SU_VR_ALL_SPD_41/
+		/sub-3044/ses-SU_VR_ALL_OL_22/
+		/sub-3044/ses-SU_VR_OL_41/
+		/sub-3044/ses-SU_VR_OL_38/
+		/sub-3044/ses-SU_VR_ALL_SPD_35/
+		/sub-3044/ses-SU_VR_ALL_TP_32/
+		/sub-3044/ses-SU_VR_OL_37/
+		/sub-3044/ses-SU_VR_OL_34/
+		/sub-3044/ses-SU_VR_ALL_SPD_43/
+		/sub-3044/ses-SU_VR_OL_19/
+		/sub-3044/ses-SU_VR_ALL_TP_23/
+		/sub-3044/ses-SU_VR_ALL_SPD_20/
+		/sub-3044/ses-SU_VR_OL_55/
+		/sub-3044/ses-SU_VR_OL_30/
+		/sub-3044/ses-SU_VR_ALL_SPD_39/
+		/sub-3044/ses-SU_VR_ALL_OL_24/
+		/sub-3044/ses-SU_VR_OL_29/
+		/sub-3015/ses-SU_VR_ALL_OL_2/
+		/sub-3015/ses-SU_VR_ALL_SPD_7/
+		/sub-3015/ses-SU_VR_OL_13/
+		/sub-3015/ses-SU_VR_ALL_SPD_6/
+		/sub-3015/ses-SU_VR_ALL_OL_4/
+		/sub-3015/ses-SU_VR_OL_4/
+		/sub-3015/ses-SU_VR_ALL_TP_12/
+		/sub-3015/ses-SU_VR_ALL_OL_12/
+		/sub-3015/ses-SU_VR_ALL_SPD_8/
+		/sub-3015/ses-SU_VR_ALL_SPD_5/
+		/sub-3015/ses-SU_VR_ALL_OL_3/
+		/sub-3015/ses-SU_VR_ALL_SPD_2/
+		/sub-3015/ses-SU_VR_OL_10/
+		/sub-3015/ses-SU_VR_OL_11/
+		/sub-3015/ses-SU_VR_OL_8/
+		/sub-3015/ses-SU_VR_ALL_SPD_12/
+		/sub-3015/ses-SU_VR_OL_12/
+		/sub-3015/ses-SU_VR_OL_7/
+		/sub-3015/ses-SU_VR_ALL_TP_4/
+		/sub-3015/ses-SU_VR_OL_6/
+		/sub-3015/ses-SU_VR_ALL_OL_13/
+		/sub-3015/ses-SU_VR_OL_15/
+		/sub-3015/ses-SU_VR_ALL_SPD_10/
+		/sub-3015/ses-SU_VR_OL_9/
+		/sub-3015/ses-SU_VR_ALL_TP_8/
+		/sub-3015/ses-SU_VR_ALL_OL_7/
+		/sub-3015/ses-SU_VR_OL_3/
+		/sub-3015/ses-SU_VR_ALL_SPD_13/
+		/sub-3015/ses-SU_VR_ALL_TP_11/
+		/sub-3015/ses-SU_VR_ALL_TP_10/
+		/sub-3015/ses-SU_VR_ALL_TP_13/
+		/sub-3015/ses-SU_VR_ALL_OL_8/
+		/sub-3015/ses-SU_VR_ALL_OL_9/
+		/sub-3015/ses-SU_VR_ALL_TP_2/
+		/sub-3015/ses-SU_VR_ALL_TP_6/
+		/sub-3015/ses-SU_VR_ALL_SPD_9/
+		/sub-3015/ses-SU_VR_OL_14/
+		/sub-3015/ses-SU_VR_ALL_SPD_4/
+		/sub-3015/ses-SU_VR_OL_5/
+		/sub-3015/ses-SU_VR_ALL_TP_5/
+		/sub-3015/ses-SU_VR_ALL_OL_11/
+		/sub-3015/ses-SU_VR_ALL_SPD_3/
+		/sub-3015/ses-SU_VR_ALL_OL_6/
+		/sub-3015/ses-SU_VR_ALL_SPD_11/
+		/sub-3015/ses-SU_VR_ALL_TP_9/
+		/sub-3015/ses-SU_VR_ALL_OL_5/
+		/sub-3015/ses-SU_VR_ALL_TP_7/
+		/sub-3015/ses-SU_VR_ALL_OL_10/
+		/sub-3015/ses-SU_VR_ALL_TP_3/
+		/sub-146/ses-Ca_VS_MB_12/
+		/sub-146/ses-Ca_VS_MB_THREE_TP_10/
+		/sub-146/ses-Ca_VS_MB_SPD_11/
+		/sub-146/ses-Ca_VS_VR_16/
+		/sub-146/ses-Ca_VS_MB_TP_PAUSE_9/
+		/sub-139/ses-Ca_VS_VR_TP_PAUSE_9/
+		/sub-139/ses-Ca_VS_VR_SPD_13/
+		/sub-139/ses-Ca_VS_VR_13/
+		/sub-139/ses-Ca_VS_MB_THREE_TP_7/
+		/sub-139/ses-Ca_VS_MB_TP_PAUSE_6/
+		/sub-139/ses-Ca_VS_MB_SPD_8/
+		/sub-139/ses-Ca_VS_MB_9/
+		/sub-139/ses-Ca_VS_VR_THREE_TP_13/
+		/sub-159/ses-DAsensor_VS_VR_TP_PAUSE_1/
+		/sub-159/ses-DAsensor_VS_VR_1/
+		/sub-159/ses-DAsensor_VS_VR_SPD_1/
+		/sub-3054/ses-SU_VR_ALL_TP_76/
+		/sub-3054/ses-SU_VR_ALL_OL_69/
+		/sub-3054/ses-SU_VR_OL_101/
+		/sub-3054/ses-SU_VR_ALL_SPD_77/
+		/sub-3054/ses-SU_VR_ALL_TP_70/
+		/sub-3054/ses-SU_VR_ALL_SPD_70/
+		/sub-3054/ses-SU_VR_ALL_OL_62/
+		/sub-3054/ses-SU_VR_ALL_SPD_67/
+		/sub-3054/ses-SU_VR_ALL_TP_78/
+		/sub-3054/ses-SU_VR_ALL_TP_74/
+		/sub-3054/ses-SU_VR_ALL_OL_63/
+		/sub-3054/ses-SU_VR_ALL_TP_73/
+		/sub-3054/ses-SU_VR_OL_83/
+		/sub-3054/ses-SU_VR_ALL_OL_74/
+		/sub-3054/ses-SU_VR_ALL_TP_63/
+		/sub-3054/ses-SU_VR_ALL_TP_67/
+		/sub-3054/ses-SU_VR_ALL_SPD_66/
+		/sub-3054/ses-SU_VR_ALL_SPD_78/
+		/sub-3054/ses-SU_VR_ALL_SPD_73/
+		/sub-3054/ses-SU_VR_OL_95/
+		/sub-3054/ses-SU_VR_OL_82/
+		/sub-3054/ses-SU_VR_ALL_SPD_63/
+		/sub-3054/ses-SU_VR_ALL_TP_77/
+		/sub-3054/ses-SU_VR_ALL_SPD_62/
+		/sub-3054/ses-SU_VR_OL_89/
+		/sub-3054/ses-SU_VR_ALL_TP_65/
+		/sub-3054/ses-SU_VR_ALL_OL_72/
+		/sub-3054/ses-SU_VR_ALL_SPD_68/
+		/sub-3054/ses-SU_VR_OL_91/
+		/sub-3054/ses-SU_VR_ALL_TP_61/
+		/sub-3054/ses-SU_VR_ALL_TP_75/
+		/sub-3054/ses-SU_VR_OL_98/
+		/sub-3054/ses-SU_VR_ALL_TP_66/
+		/sub-3054/ses-SU_VR_OL_81/
+		/sub-3054/ses-SU_VR_ALL_OL_66/
+		/sub-3054/ses-SU_VR_OL_96/
+		/sub-3054/ses-SU_VR_OL_84/
+		/sub-3054/ses-SU_VR_ALL_OL_68/
+		/sub-3054/ses-SU_VR_ALL_SPD_74/
+		/sub-3054/ses-SU_VR_ALL_SPD_61/
+		/sub-3054/ses-SU_VR_OL_80/
+		/sub-3054/ses-SU_VR_OL_94/
+		/sub-3054/ses-SU_VR_ALL_SPD_71/
+		/sub-3054/ses-SU_VR_OL_86/
+		/sub-3054/ses-SU_VR_ALL_TP_62/
+		/sub-3054/ses-SU_VR_ALL_OL_67/
+		/sub-3054/ses-SU_VR_ALL_SPD_69/
+		/sub-3054/ses-SU_VR_OL_90/
+		/sub-3054/ses-SU_VR_ALL_OL_73/
+		/sub-3054/ses-SU_VR_ALL_SPD_72/
+		/sub-3054/ses-SU_VR_ALL_OL_76/
+		/sub-3054/ses-SU_VR_ALL_TP_64/
+		/sub-3054/ses-SU_VR_ALL_SPD_64/
+		/sub-3054/ses-SU_VR_OL_88/
+		/sub-3054/ses-SU_VR_OL_99/
+		/sub-3054/ses-SU_VR_ALL_TP_71/
+		/sub-3054/ses-SU_VR_ALL_OL_70/
+		/sub-3054/ses-SU_VR_ALL_OL_77/
+		/sub-3054/ses-SU_VR_OL_102/
+		/sub-3054/ses-SU_VR_ALL_OL_65/
+		/sub-3054/ses-SU_VR_OL_79/
+		/sub-3054/ses-SU_VR_ALL_OL_64/
+		/sub-3054/ses-SU_VR_OL_97/
+		/sub-3054/ses-SU_VR_OL_92/
+		/sub-3054/ses-SU_VR_OL_100/
+		/sub-3054/ses-SU_VR_ALL_TP_68/
+		/sub-3054/ses-SU_VR_ALL_SPD_75/
+		/sub-3054/ses-SU_VR_ALL_OL_71/
+		/sub-3054/ses-SU_VR_ALL_TP_69/
+		/sub-3054/ses-SU_VR_ALL_OL_61/
+		/sub-3054/ses-SU_VR_ALL_TP_72/
+		/sub-3054/ses-SU_VR_OL_93/
+		/sub-3054/ses-SU_VR_OL_87/
+		/sub-3054/ses-SU_VR_ALL_OL_78/
+		/sub-3054/ses-SU_VR_ALL_SPD_76/
+		/sub-3054/ses-SU_VR_ALL_SPD_65/
+		/sub-3054/ses-SU_VR_OL_85/
+		/sub-3054/ses-SU_VR_ALL_OL_75/
+		/sub-210/ses-DAsensor_VS_VR_THREE_TP_2/
+		/sub-210/ses-DAsensor_VS_VR_SPD_3/
+		/sub-210/ses-DAsensor_VS_VR_TP_PAUSE_3/
+		/sub-210/ses-DAsensor_VS_VR_3/
+		/sub-3021/ses-SU_VR_OL_17/
+		/sub-3021/ses-SU_VR_OL_18/
+		/sub-3021/ses-SU_VR_ALL_TP_15/
+		/sub-3021/ses-SU_VR_ALL_TP_16/
+		/sub-3021/ses-SU_VR_ALL_SPD_15/
+		/sub-3021/ses-SU_VR_ALL_SPD_16/
+		/sub-3021/ses-SU_VR_ALL_OL_15/
+		/sub-3021/ses-SU_VR_ALL_OL_16/
+		/sub-3053/ses-SU_VR_OL_77/
+		/sub-3053/ses-SU_VR_ALL_SPD_60/
+		/sub-3053/ses-SU_VR_ALL_TP_59/
+		/sub-3053/ses-SU_VR_ALL_OL_60/
+		/sub-3053/ses-SU_VR_OL_76/
+		/sub-3053/ses-SU_VR_OL_78/
+		/sub-3053/ses-SU_VR_ALL_OL_59/
+		/sub-3053/ses-SU_VR_ALL_SPD_59/
+		/sub-3053/ses-SU_VR_ALL_TP_60/
+		/sub-209/ses-DAsensor_VS_VR_SPD_2/
+		/sub-209/ses-DAsensor_VS_VR_2/
+		/sub-209/ses-DAsensor_VS_VR_TP_PAUSE_2/
+		/sub-209/ses-DAsensor_VS_VR_THREE_TP_1/
+		/sub-288/ses-Ca_VS_VR_CLOOP_PATTERN_6/
+		/sub-288/ses-Ca_VS_VR_CLOOP_SOLID_6/
+		/sub-140/ses-Ca_VS_MB_THREE_TP_8/
+		/sub-140/ses-Ca_VS_MB_10/
+		/sub-140/ses-Ca_VS_VR_14/
+		/sub-140/ses-Ca_VS_MB_TP_PAUSE_7/
+		/sub-140/ses-Ca_VS_VR_SPD_14/
+		/sub-140/ses-Ca_VS_VR_THREE_TP_14/
+		/sub-140/ses-Ca_VS_VR_TP_PAUSE_10/
+		/sub-140/ses-Ca_VS_MB_SPD_9/
+		/sub-143/ses-Ca_VS_MB_THREE_TP_9/
+		/sub-143/ses-Ca_VS_MB_11/
+		/sub-143/ses-Ca_VS_MB_SPD_10/
+		/sub-143/ses-Ca_VS_MB_TP_PAUSE_8/
+		/sub-143/ses-Ca_VS_VR_15/
+		/sub-143/ses-Ca_VS_VR_THREE_TP_15/
+		/sub-143/ses-Ca_VS_VR_TP_PAUSE_11/
+		/sub-143/ses-Ca_VS_VR_SPD_15/
+		/sub-278/ses-Ca_VS_VR_CLOOP_SOLID_2/
+		/sub-278/ses-Ca_VS_VR_CLOOP_PATTERN_2/
+		/sub-133/ses-Ca_VS_VR_SPD_10/
+		/sub-133/ses-Ca_VS_MB_8/
+		/sub-133/ses-Ca_VS_VR_TP_PAUSE_6/
+		/sub-133/ses-Ca_VS_VR_10/
+		/sub-133/ses-Ca_VS_VR_THREE_TP_10/
+		/sub-137/ses-Ca_VS_VR_TP_PAUSE_8/
+		/sub-137/ses-Ca_VS_VR_THREE_TP_12/
+		/sub-137/ses-Ca_VS_VR_12/
+		/sub-137/ses-Ca_VS_VR_SPD_12/
+		/sub-271/ses-Ca_VS_VR_CLOOP_SOLID_1/
+		/sub-271/ses-Ca_VS_VR_CLOOP_PATTERN_1/
+		/sub-218/ses-DAsensor_VS_VR_THREE_TP_8/
+		/sub-218/ses-DAsensor_VS_VR_9/
+		/sub-218/ses-DAsensor_VS_VR_TP_PAUSE_9/
+		/sub-218/ses-DAsensor_VS_VR_SPD_9/
+		/sub-249/ses-Ca_VS_VR_BTW_TRACKS_FWD_TP_5/
+		/sub-249/ses-Ca_VS_VR_TP_BTW_TRACKS_5/
+		/sub-249/ses-Ca_VS_VR_BWD_TP_5/
+		/sub-110/ses-Ca_VS_MB_THREE_TP_1/
+		/sub-110/ses-Ca_VS_MB_2/
+		/sub-110/ses-Ca_VS_VR_SPD_3/
+		/sub-110/ses-Ca_VS_VR_THREE_TP_3/
+		/sub-110/ses-Ca_VS_MB_SPD_2/
+		/sub-110/ses-Ca_VS_VR_3/
+		/sub-272/ses-Ca_VS_VR_DYNSPD_3/
+		/sub-272/ses-Ca_VS_VR_BTW_TRACKS_REWSIZE_2/
+		/sub-219/ses-DAsensor_VS_VR_SPD_10/
+		/sub-219/ses-DAsensor_VS_VR_THREE_TP_9/
+		/sub-219/ses-DAsensor_VS_VR_10/
+		/sub-219/ses-DAsensor_VS_VR_TP_PAUSE_10/
+		/sub-213/ses-DAsensor_VS_VR_THREE_TP_4/
+		/sub-213/ses-DAsensor_VS_VR_TP_PAUSE_5/
+		/sub-213/ses-DAsensor_VS_VR_SPD_5/
+		/sub-213/ses-DAsensor_VS_VR_5/
+		/sub-273/ses-Ca_VS_VR_BTW_TRACKS_REWSIZE_3/
+		/sub-282/ses-Ca_VS_VR_CLOOP_PATTERN_4/
+		/sub-282/ses-Ca_VS_VR_CLOOP_SOLID_4/
+		/sub-244/ses-Ca_VS_VR_BWD_TP_3/
+		/sub-244/ses-Ca_VS_VR_BTW_TRACKS_FWD_TP_3/
+		/sub-244/ses-Ca_VS_VR_TP_BTW_TRACKS_3/
+		/sub-124/ses-Ca_VS_VR_6/
+		/sub-124/ses-Ca_VS_MB_TP_PAUSE_2/
+		/sub-124/ses-Ca_VS_VR_SPD_6/
+		/sub-124/ses-Ca_VS_MB_SPD_4/
+		/sub-124/ses-Ca_VS_VR_TP_PAUSE_2/
+		/sub-124/ses-Ca_VS_MB_THREE_TP_3/
+		/sub-124/ses-Ca_VS_VR_THREE_TP_6/
+		/sub-124/ses-Ca_VS_MB_4/
+		/sub-112/ses-Ca_VS_VR_SPD_4/
+		/sub-112/ses-Ca_VS_VR_THREE_TP_4/
+		/sub-112/ses-Ca_VS_VR_4/
+		/sub-253/ses-Ca_VS_VR_BTW_TRACKS_FWD_TP_6/
+		/sub-253/ses-Ca_VS_VR_BWD_TP_6/
+		/sub-253/ses-Ca_VS_VR_TP_BTW_TRACKS_6/
+		/sub-3014/ses-SU_VR_OL_2/
+		/sub-3014/ses-SU_VR_ALL_OL_1/
+		/sub-3014/ses-SU_VR_ALL_SPD_1/
+		/sub-3014/ses-SU_VR_OL_1/
+		/sub-3014/ses-SU_VR_ALL_TP_1/
+		/sub-127/ses-Ca_VS_MB_THREE_TP_4/
+		/sub-127/ses-Ca_VS_MB_SPD_5/
+		/sub-127/ses-Ca_VS_VR_THREE_TP_7/
+		/sub-127/ses-Ca_VS_MB_5/
+		/sub-127/ses-Ca_VS_VR_TP_PAUSE_3/
+		/sub-127/ses-Ca_VS_VR_7/
+		/sub-127/ses-Ca_VS_VR_SPD_7/
+		/sub-127/ses-Ca_VS_MB_TP_PAUSE_3/
+		/sub-81/ses-Ca_VS_VR_SPD_1/
+		/sub-81/ses-Ca_VS_MB_1/
+		/sub-81/ses-Ca_VS_VR_THREE_TP_1/
+		/sub-81/ses-Ca_VS_MB_SPD_1/
+		/sub-81/ses-Ca_VS_VR_1/
+		/sub-269/ses-Ca_VS_VR_DYNSPD_2/
+		/sub-269/ses-Ca_VS_VR_BTW_TRACKS_REWSIZE_1/
+		/sub-3017/ses-SU_VR_ALL_SPD_14/
+		/sub-3017/ses-SU_VR_ALL_TP_14/
+		/sub-3017/ses-SU_VR_OL_16/
+		/sub-3017/ses-SU_VR_ALL_OL_14/
+		/sub-280/ses-Ca_VS_VR_CLOOP_PATTERN_3/
+		/sub-280/ses-Ca_VS_VR_CLOOP_SOLID_3/
+		/sub-3047/ses-SU_VR_ALL_OL_54/
+		/sub-3047/ses-SU_VR_ALL_SPD_54/
+		/sub-3047/ses-SU_VR_OL_69/
+		/sub-3047/ses-SU_VR_ALL_TP_54/
+		/sub-214/ses-DAsensor_VS_VR_6/
+		/sub-214/ses-DAsensor_VS_VR_TP_PAUSE_6/
+		/sub-214/ses-DAsensor_VS_VR_THREE_TP_5/
+		/sub-214/ses-DAsensor_VS_VR_SPD_6/
 
 	Please visit https://neurostars.org/search?q=NOT_INCLUDED for existing conversations about this issue.
 
