@@ -1,5 +1,5 @@
-session_id
-ses-DAsensor+VS+VR+9
-ses-DAsensor+VS+VR+SPD+9
-ses-DAsensor+VS+VR+THREE+TP+8
-ses-DAsensor+VS+VR+TP+PAUSE+9
+session_id	original_session_id
+ses-DAsensor+VS+VR+9	ses-DAsensor_VS_VR_9
+ses-DAsensor+VS+VR+SPD+9	ses-DAsensor_VS_VR_SPD_9
+ses-DAsensor+VS+VR+THREE+TP+8	ses-DAsensor_VS_VR_THREE_TP_8
+ses-DAsensor+VS+VR+TP+PAUSE+9	ses-DAsensor_VS_VR_TP_PAUSE_9

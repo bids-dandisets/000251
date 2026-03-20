@@ -1,10 +1,10 @@
-session_id
-ses-SU+VR+ALL+OL+59
-ses-SU+VR+ALL+OL+60
-ses-SU+VR+ALL+SPD+59
-ses-SU+VR+ALL+SPD+60
-ses-SU+VR+ALL+TP+59
-ses-SU+VR+ALL+TP+60
-ses-SU+VR+OL+76
-ses-SU+VR+OL+77
-ses-SU+VR+OL+78
+session_id	original_session_id
+ses-SU+VR+ALL+OL+59	ses-SU_VR_ALL_OL_59
+ses-SU+VR+ALL+OL+60	ses-SU_VR_ALL_OL_60
+ses-SU+VR+ALL+SPD+59	ses-SU_VR_ALL_SPD_59
+ses-SU+VR+ALL+SPD+60	ses-SU_VR_ALL_SPD_60
+ses-SU+VR+ALL+TP+59	ses-SU_VR_ALL_TP_59
+ses-SU+VR+ALL+TP+60	ses-SU_VR_ALL_TP_60
+ses-SU+VR+OL+76	ses-SU_VR_OL_76
+ses-SU+VR+OL+77	ses-SU_VR_OL_77
+ses-SU+VR+OL+78	ses-SU_VR_OL_78

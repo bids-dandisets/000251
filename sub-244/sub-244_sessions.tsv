@@ -1,4 +1,4 @@
-session_id
-ses-Ca+VS+VR+BTW+TRACKS+FWD+TP+3
-ses-Ca+VS+VR+BWD+TP+3
-ses-Ca+VS+VR+TP+BTW+TRACKS+3
+session_id	original_session_id
+ses-Ca+VS+VR+BTW+TRACKS+FWD+TP+3	ses-Ca_VS_VR_BTW_TRACKS_FWD_TP_3
+ses-Ca+VS+VR+BWD+TP+3	ses-Ca_VS_VR_BWD_TP_3
+ses-Ca+VS+VR+TP+BTW+TRACKS+3	ses-Ca_VS_VR_TP_BTW_TRACKS_3

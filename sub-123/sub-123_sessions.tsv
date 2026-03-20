@@ -1,9 +1,9 @@
-session_id
-ses-Ca+VS+MB+3
-ses-Ca+VS+MB+SPD+3
-ses-Ca+VS+MB+THREE+TP+2
-ses-Ca+VS+MB+TP+PAUSE+1
-ses-Ca+VS+VR+5
-ses-Ca+VS+VR+SPD+5
-ses-Ca+VS+VR+THREE+TP+5
-ses-Ca+VS+VR+TP+PAUSE+1
+session_id	original_session_id
+ses-Ca+VS+MB+3	ses-Ca_VS_MB_3
+ses-Ca+VS+MB+SPD+3	ses-Ca_VS_MB_SPD_3
+ses-Ca+VS+MB+THREE+TP+2	ses-Ca_VS_MB_THREE_TP_2
+ses-Ca+VS+MB+TP+PAUSE+1	ses-Ca_VS_MB_TP_PAUSE_1
+ses-Ca+VS+VR+5	ses-Ca_VS_VR_5
+ses-Ca+VS+VR+SPD+5	ses-Ca_VS_VR_SPD_5
+ses-Ca+VS+VR+THREE+TP+5	ses-Ca_VS_VR_THREE_TP_5
+ses-Ca+VS+VR+TP+PAUSE+1	ses-Ca_VS_VR_TP_PAUSE_1

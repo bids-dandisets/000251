@@ -1,4 +1,4 @@
-session_id
-ses-DAsensor+VS+VR+1
-ses-DAsensor+VS+VR+SPD+1
-ses-DAsensor+VS+VR+TP+PAUSE+1
+session_id	original_session_id
+ses-DAsensor+VS+VR+1	ses-DAsensor_VS_VR_1
+ses-DAsensor+VS+VR+SPD+1	ses-DAsensor_VS_VR_SPD_1
+ses-DAsensor+VS+VR+TP+PAUSE+1	ses-DAsensor_VS_VR_TP_PAUSE_1

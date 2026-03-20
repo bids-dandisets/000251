@@ -1,6 +1,6 @@
-session_id
-ses-Ca+VS+MB+12
-ses-Ca+VS+MB+SPD+11
-ses-Ca+VS+MB+THREE+TP+10
-ses-Ca+VS+MB+TP+PAUSE+9
-ses-Ca+VS+VR+16
+session_id	original_session_id
+ses-Ca+VS+MB+12	ses-Ca_VS_MB_12
+ses-Ca+VS+MB+SPD+11	ses-Ca_VS_MB_SPD_11
+ses-Ca+VS+MB+THREE+TP+10	ses-Ca_VS_MB_THREE_TP_10
+ses-Ca+VS+MB+TP+PAUSE+9	ses-Ca_VS_MB_TP_PAUSE_9
+ses-Ca+VS+VR+16	ses-Ca_VS_VR_16

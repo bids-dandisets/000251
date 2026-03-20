@@ -1,5 +1,5 @@
-session_id
-ses-Ca+VS+VR+12
-ses-Ca+VS+VR+SPD+12
-ses-Ca+VS+VR+THREE+TP+12
-ses-Ca+VS+VR+TP+PAUSE+8
+session_id	original_session_id
+ses-Ca+VS+VR+12	ses-Ca_VS_VR_12
+ses-Ca+VS+VR+SPD+12	ses-Ca_VS_VR_SPD_12
+ses-Ca+VS+VR+THREE+TP+12	ses-Ca_VS_VR_THREE_TP_12
+ses-Ca+VS+VR+TP+PAUSE+8	ses-Ca_VS_VR_TP_PAUSE_8

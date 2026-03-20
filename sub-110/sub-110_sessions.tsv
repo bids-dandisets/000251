@@ -1,7 +1,7 @@
-session_id
-ses-Ca+VS+MB+2
-ses-Ca+VS+MB+SPD+2
-ses-Ca+VS+MB+THREE+TP+1
-ses-Ca+VS+VR+3
-ses-Ca+VS+VR+SPD+3
-ses-Ca+VS+VR+THREE+TP+3
+session_id	original_session_id
+ses-Ca+VS+MB+2	ses-Ca_VS_MB_2
+ses-Ca+VS+MB+SPD+2	ses-Ca_VS_MB_SPD_2
+ses-Ca+VS+MB+THREE+TP+1	ses-Ca_VS_MB_THREE_TP_1
+ses-Ca+VS+VR+3	ses-Ca_VS_VR_3
+ses-Ca+VS+VR+SPD+3	ses-Ca_VS_VR_SPD_3
+ses-Ca+VS+VR+THREE+TP+3	ses-Ca_VS_VR_THREE_TP_3
