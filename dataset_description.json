@@ -1,27 +1,4 @@
 {
-    "Name": "A Unified Framework for Dopamine Signals across Timescales",
     "BIDSVersion": "1.10",
-    "HEDVersion": "8.3.0",
-    "Description": "This dandiset contains the data associated with \"A Unified Framework for Dopamine Signals across Timescales\" (Kim et al. 2020). It is comprised of fiber photometry data, single-unit recordings, stimulus variables, and behavioral measurements across a wide variety of experimental manipulations. ",
-    "DatasetType": "raw",
-    "Authors": [
-        "Kim, HyungGoo",
-        "Mikhael, John",
-        "Tsutsui-Kimura, Iku",
-        "Sun, Fangmiao",
-        "Zhang, Yajun",
-        "Li, Yulong",
-        "Watabe-Uchida, Mitsuko",
-        "Gershman, Samuel",
-        "Uchida, Naoshige"
-    ],
-    "License": "CC-BY-4.0",
-    "GeneratedBy": [
-        {
-            "Name": "nwb2bids",
-            "Version": "0.12.1.dev6+gf29fa0039",
-            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
-            "CodeURL": "https://github.com/con/nwb2bids"
-        }
-    ]
+    "HEDVersion": "8.3.0"
 }
